@@ -1,0 +1,76 @@
+@import "../../global.scss";
+
+.intro{
+    background-color: white;
+    display: flex;
+    padding-top: 10px;
+    
+
+    .right{
+        flex: 0.6;
+
+        .wrapper {
+            width: 100%;
+            padding-left: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        h1{
+            font-size: 60px;
+            margin: 10px 0;
+            padding-bottom: 30px;
+        }
+        h2 {
+            font-size: 35px;
+            padding-bottom: 10px;
+
+            span{
+                color: $mainColor;
+            }
+        }
+        h3 {
+            font-size: 30px;
+        }
+
+        a{
+            position:absolute;
+            bottom: 40px;
+            left: 60%;
+         
+
+            &:hover{
+                opacity: 50%;
+            }
+        .down{
+            padding-left: 30px;
+            width: 100%;
+            font-size: 120px;
+            color: $mainColor; 
+        }
+
+        }
+    }
+
+    .left{
+        flex: 0.4;
+        background-color: white;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     
+        .img{
+            width: 600px;
+            height: 600px;
+            float:right;
+      
+            img{
+                width: 90%;
+                border-radius: 50%;
+                background-color: $mainColor;
+            }
+        }
+    }
+}
