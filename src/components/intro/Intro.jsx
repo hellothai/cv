@@ -31,7 +31,7 @@ export default function Intro() {
                 <div className="wrapper">
                     <h1>Thaís Menezes</h1>
                     <h2>Finalista em <span ref={text}></span></h2>
-                    <h3>Estágio curricular foi em desenvolvimento Web, onde tive a possibilidade de iniciar na parte do front-end.</h3>
+                    <h3>Estágio curricular em desenvolvimento Web.</h3>
                 </div>
                 <a href="#portfolio">
                     <ArrowDownwardIcon className="down"></ArrowDownwardIcon>
